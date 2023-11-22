@@ -1,0 +1,121 @@
+<odoo>
+        <record id="view_appointment_tree" model="ir.ui.view">
+        <field name="name">management.appointment.tree</field>
+        <field name="model">management.appointment</field>
+        <field name="arch" type="xml">
+            <tree multi_edit="1">
+                <header>
+                    <button name="action_done" string="Mark As Done" class="btn-primary"
+                            type="object"/>
+                </header>
+                <field name="name"/>
+                <field name="manager_id"/>
+                <field name="patient_id"/>
+                <field name="age" optional="show"/>
+                <field name="gender" optional="show"/>
+                <field name="date_appointment" optional="show"/>
+                <field name="date_checkup" optional="hide"/>
+                <field name="note" optional="show"/>
+                <field name="state" optional="show"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_appointment_form" model="ir.ui.view">
+        <field name="name">management.appointment.form</field>
+        <field name="model">management.appointment</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                    <button id="button_confirm" name="action_confirm" string="Confirm" class="btn-primary" states="draft"
+                            confirm="Are you sure that you need to confirm ?"
+                            type="object"/>
+                    <button id="button_done" name="action_done" string="Mark As Done" class="btn-primary" states="confirm"
+                            type="object"/>
+                    <button id="button_draft" name="action_draft" string="Set To Draft" class="btn-primary"
+                            states="cancel" type="object"/>
+                    <button id="button_cancel" name="action_cancel" string="Cancel" states="draft,done,confirm"
+                            confirm="Are you sure that you need to cancel ?"
+                            type="object"/>
+                    <field name="state" widget="statusbar" statusbar_visible="draft,done,confirm"/>
+                </header>
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name" readonly="1"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="patient_id"/>
+                            <field name="gender" readonly="1" force_save="1"/>
+                            <field name="age" readonly="1" force_save="1"/>
+                        </group>
+                        <group>
+                            <field name="manager_id"/>
+                            <field name="date_appointment"/>
+                            <field name="date_checkup"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Manager Oder" name="manager_oder">
+                            <group>
+                                <field name="oder"/>
+                            </group>
+                        </page>
+                        <page string="Product" name="product">
+                            <field name="oder_line_ids">
+                                <tree editable="bottom">
+                                    <field name="name"/>
+                                    <field name="qty"/>
+                                </tree>
+                                <form>
+                                    <group>
+                                        <group>
+                                            <field name="name"/>
+                                        </group>
+                                        <group>
+                                            <field name="qty"/>
+                                        </group>
+                                    </group>
+                                </form>
+                            </field>
+                        </page>
+                        <page string="Other Info" name="other_info">
+                            <field name="note"/>
+                        </page>
+                    </notebook>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids"/>
+                    <field name="activity_ids"/>
+                    <field name="message_ids"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_management_appointment" model="ir.actions.act_window">
+        <field name="name">Appointments</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">management.appointment</field>
+        <field name="view_mode">tree,form</field>
+<!--        <field name="context">{'search_default_draft': 1}</field>-->
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create your first appointment !
+            </p>
+        </field>
+    </record>
+
+    <menuitem id="menu_appointment_root"
+              name="Appointments"
+              parent="menu_management_root"
+              sequence="10"/>
+
+    <menuitem id="menu_appointment"
+              name="Appointments"
+              parent="menu_appointment_root"
+              action="action_management_appointment"
+              sequence="10"/>
+</odoo>

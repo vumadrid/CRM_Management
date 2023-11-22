@@ -1,0 +1,691 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* crm_management
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-20 09:19+0000\n"
+"PO-Revision-Date: 2023-11-20 09:19+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: crm_management
+#. odoo-python
+#: code:addons/crm_management/models/manager.py:0
+#: code:addons/models/manager.py:0
+#, python-format
+msgid "%s (Copy)"
+msgstr ""
+
+#. module: crm_management
+#: model_terms:ir.ui.view,arch_db:crm_management.report_patient_detail
+msgid ""
+"<span>\n"
+"                                                            <strong>Age:</strong>\n"
+"                                                        </span>"
+msgstr ""
+
+#. module: crm_management
+#: model_terms:ir.ui.view,arch_db:crm_management.report_patient_detail
+msgid ""
+"<span>\n"
+"                                                            <strong>Reference:</strong>\n"
+"                                                        </span>"
+msgstr ""
+
+#. module: crm_management
+#: model_terms:ir.ui.view,arch_db:crm_management.report_patient_detail
+msgid "<span>:</span>"
+msgstr ""
+
+#. module: crm_management
+#: model_terms:ir.ui.view,arch_db:crm_management.report_patient_detail
+msgid "<span>Age</span>"
+msgstr "Tuổi"
+
+#. module: crm_management
+#: model_terms:ir.ui.view,arch_db:crm_management.report_patient_detail
+msgid "<span>Appointment Details</span>"
+msgstr "Chi tiết cuộc hẹn"
+
+#. module: crm_management
+#: model_terms:ir.ui.view,arch_db:crm_management.report_patient_detail
+msgid "<span>Manager</span>"
+msgstr "Người quản lí"
+
+#. module: crm_management
+#: model_terms:ir.ui.view,arch_db:crm_management.report_patient_detail
+msgid "<span>Reference</span>"
+msgstr "Thẩm quyền"
+
+#. module: crm_management
+#: model_terms:ir.ui.view,arch_db:crm_management.report_patient_detail
+msgid "<strong>Total Appointments</strong>"
+msgstr "Tổng cuộc hẹn"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__message_needaction
+#: model:ir.model.fields,field_description:crm_management.field_management_manager__message_needaction
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__message_needaction
+msgid "Action Needed"
+msgstr "Hành động cần thiết"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_manager__active
+msgid "Active"
+msgstr "Tích cực"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__activity_ids
+#: model:ir.model.fields,field_description:crm_management.field_management_manager__activity_ids
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__activity_ids
+msgid "Activities"
+msgstr "Các hoạt động"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__activity_exception_decoration
+#: model:ir.model.fields,field_description:crm_management.field_management_manager__activity_exception_decoration
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Thiết kế ngoại lệ hoạt động"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__activity_state
+#: model:ir.model.fields,field_description:crm_management.field_management_manager__activity_state
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__activity_state
+msgid "Activity State"
+msgstr "Trạng thái hoạt động"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__activity_type_icon
+#: model:ir.model.fields,field_description:crm_management.field_management_manager__activity_type_icon
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Biểu tượng loại hoạt động"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__age
+#: model:ir.model.fields,field_description:crm_management.field_management_manager__age
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__age
+msgid "Age"
+msgstr "Tuổi"
+
+#. module: crm_management
+#. odoo-python
+#: code:addons/crm_management/models/patient.py:0
+#: code:addons/models/patient.py:0
+#, python-format
+msgid "Age cannot Be Zero"
+msgstr "Tuổi không thể bằng 0"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_appointment_prescription_lines__appointment_id
+msgid "Appointment"
+msgstr "Cuộc hẹn"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_manager__appointment_count
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__appointment_count
+msgid "Appointment Count"
+msgstr "Số cuộc hẹn"
+
+#. module: crm_management
+#: model:ir.model,name:crm_management.model_appointment_prescription_lines
+msgid "Appointment Prescription Lines"
+msgstr "Dòng sản phẩm cuộc hẹn"
+
+#. module: crm_management
+#: model:ir.actions.act_window,name:crm_management.action_management_appointment
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__appointment_ids
+#: model:ir.ui.menu,name:crm_management.menu_appointment
+#: model:ir.ui.menu,name:crm_management.menu_appointment_root
+#: model:ir.ui.menu,name:crm_management.menu_sale_appointment
+#: model_terms:ir.ui.view,arch_db:crm_management.view_patient_form
+msgid "Appointments"
+msgstr "Cuộc hẹn"
+
+#. module: crm_management
+#: model_terms:ir.ui.view,arch_db:crm_management.view_appointment_form
+#: model_terms:ir.ui.view,arch_db:crm_management.view_patient_form
+msgid "Are you sure that you need to cancel ?"
+msgstr "Bạn có chắc chắn cần hủy không"
+
+#. module: crm_management
+#: model_terms:ir.ui.view,arch_db:crm_management.view_appointment_form
+#: model_terms:ir.ui.view,arch_db:crm_management.view_patient_form
+msgid "Are you sure that you need to confirm ?"
+msgstr "Bạn có chắc chắn cần xác nhận không"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__message_attachment_count
+#: model:ir.model.fields,field_description:crm_management.field_management_manager__message_attachment_count
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__message_attachment_count
+msgid "Attachment Count"
+msgstr "Số lượng tệp đính kèm"
+
+#. module: crm_management
+#: model_terms:ir.ui.view,arch_db:crm_management.view_appointment_form
+#: model_terms:ir.ui.view,arch_db:crm_management.view_patient_form
+msgid "Cancel"
+msgstr "Hủy"
+
+#. module: crm_management
+#: model:ir.model.fields.selection,name:crm_management.selection__management_appointment__state__cancel
+#: model:ir.model.fields.selection,name:crm_management.selection__management_patient__state__cancel
+msgid "Cancelled"
+msgstr "Đã hủy"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__date_checkup
+msgid "Check Up time"
+msgstr "Thời gian gặp"
+
+#. module: crm_management
+#: model_terms:ir.ui.view,arch_db:crm_management.view_appointment_form
+#: model_terms:ir.ui.view,arch_db:crm_management.view_patient_form
+msgid "Confirm"
+msgstr "Xác nhận"
+
+#. module: crm_management
+#: model:ir.model.fields.selection,name:crm_management.selection__management_appointment__state__confirm
+#: model:ir.model.fields.selection,name:crm_management.selection__management_patient__state__confirm
+msgid "Confirmed"
+msgstr "Đã xác nhận"
+
+#. module: crm_management
+#: model_terms:ir.actions.act_window,help:crm_management.action_management_appointment
+msgid "Create your first appointment !"
+msgstr "Tạo 1 cuộc hẹn cho bạn"
+
+#. module: crm_management
+#: model_terms:ir.actions.act_window,help:crm_management.action_management_manager
+msgid "Create your first manager!"
+msgstr "Tạo 1 người quản lí của bạn"
+
+#. module: crm_management
+#: model_terms:ir.actions.act_window,help:crm_management.action_management_patient
+msgid "Create your first patient!"
+msgstr "Tạo 1 khách hàng đầu tiên của bạn"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_appointment_prescription_lines__create_uid
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__create_uid
+#: model:ir.model.fields,field_description:crm_management.field_management_manager__create_uid
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__create_uid
+msgid "Created by"
+msgstr "Người tạo"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_appointment_prescription_lines__create_date
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__create_date
+#: model:ir.model.fields,field_description:crm_management.field_management_manager__create_date
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__create_date
+msgid "Created on"
+msgstr "được tạo ra"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__date_appointment
+msgid "Date"
+msgstr "Ngày"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__note
+#: model:ir.model.fields,field_description:crm_management.field_management_manager__note
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__note
+msgid "Description"
+msgstr "Mô tả"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_appointment_prescription_lines__display_name
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__display_name
+#: model:ir.model.fields,field_description:crm_management.field_management_manager__display_name
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__display_name
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#. module: crm_management
+#: model:ir.model.fields.selection,name:crm_management.selection__management_appointment__state__done
+#: model:ir.model.fields.selection,name:crm_management.selection__management_patient__state__done
+msgid "Done"
+msgstr "Xong"
+
+#. module: crm_management
+#: model:ir.model.fields.selection,name:crm_management.selection__management_appointment__state__draft
+#: model:ir.model.fields.selection,name:crm_management.selection__management_patient__state__draft
+msgid "Draft"
+msgstr "Bản nháp"
+
+#. module: crm_management
+#: model:ir.model.fields.selection,name:crm_management.selection__management_appointment__gender__female
+#: model:ir.model.fields.selection,name:crm_management.selection__management_manager__gender__female
+#: model:ir.model.fields.selection,name:crm_management.selection__management_patient__gender__female
+msgid "Female"
+msgstr "Nữ"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__message_follower_ids
+#: model:ir.model.fields,field_description:crm_management.field_management_manager__message_follower_ids
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__message_follower_ids
+msgid "Followers"
+msgstr "Người theo dõi"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__message_partner_ids
+#: model:ir.model.fields,field_description:crm_management.field_management_manager__message_partner_ids
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Người theo dõi(đối tác)"
+
+#. module: crm_management
+#: model:ir.model.fields,help:crm_management.field_management_appointment__activity_type_icon
+#: model:ir.model.fields,help:crm_management.field_management_manager__activity_type_icon
+#: model:ir.model.fields,help:crm_management.field_management_patient__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__gender
+#: model:ir.model.fields,field_description:crm_management.field_management_manager__gender
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__gender
+msgid "Gender"
+msgstr "Giới tính"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__has_message
+#: model:ir.model.fields,field_description:crm_management.field_management_manager__has_message
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__has_message
+msgid "Has Message"
+msgstr "Có tin nhắn"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_appointment_prescription_lines__id
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__id
+#: model:ir.model.fields,field_description:crm_management.field_management_manager__id
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__id
+msgid "ID"
+msgstr "ID"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__activity_exception_icon
+#: model:ir.model.fields,field_description:crm_management.field_management_manager__activity_exception_icon
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: crm_management
+#: model:ir.model.fields,help:crm_management.field_management_appointment__activity_exception_icon
+#: model:ir.model.fields,help:crm_management.field_management_manager__activity_exception_icon
+#: model:ir.model.fields,help:crm_management.field_management_patient__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Biểu tượng để biểu thị một hoạt động ngoại lệ."
+
+#. module: crm_management
+#: model:ir.model.fields,help:crm_management.field_management_appointment__message_needaction
+#: model:ir.model.fields,help:crm_management.field_management_manager__message_needaction
+#: model:ir.model.fields,help:crm_management.field_management_patient__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Nếu được kiểm tra, tin nhắn cần được bạn theo dõi"
+
+#. module: crm_management
+#: model:ir.model.fields,help:crm_management.field_management_appointment__message_has_error
+#: model:ir.model.fields,help:crm_management.field_management_appointment__message_has_sms_error
+#: model:ir.model.fields,help:crm_management.field_management_manager__message_has_error
+#: model:ir.model.fields,help:crm_management.field_management_manager__message_has_sms_error
+#: model:ir.model.fields,help:crm_management.field_management_patient__message_has_error
+#: model:ir.model.fields,help:crm_management.field_management_patient__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Nếu kiểm tra, một số tin nhắn có lỗi gửi"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__message_is_follower
+#: model:ir.model.fields,field_description:crm_management.field_management_manager__message_is_follower
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__message_is_follower
+msgid "Is Follower"
+msgstr "Là người theo dõi"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_appointment_prescription_lines____last_update
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment____last_update
+#: model:ir.model.fields,field_description:crm_management.field_management_manager____last_update
+#: model:ir.model.fields,field_description:crm_management.field_management_patient____last_update
+msgid "Last Modified on"
+msgstr "Sửa lần cuối vào"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_appointment_prescription_lines__write_uid
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__write_uid
+#: model:ir.model.fields,field_description:crm_management.field_management_manager__write_uid
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__write_uid
+msgid "Last Updated by"
+msgstr "Người cập nhật cuối"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_appointment_prescription_lines__write_date
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__write_date
+#: model:ir.model.fields,field_description:crm_management.field_management_manager__write_date
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__write_date
+msgid "Last Updated on"
+msgstr "Cập nhật lần cuối vào"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__message_main_attachment_id
+#: model:ir.model.fields,field_description:crm_management.field_management_manager__message_main_attachment_id
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Tệp đính kèm chính"
+
+#. module: crm_management
+#: model:ir.model.fields.selection,name:crm_management.selection__management_appointment__gender__male
+#: model:ir.model.fields.selection,name:crm_management.selection__management_manager__gender__male
+#: model:ir.model.fields.selection,name:crm_management.selection__management_patient__gender__male
+msgid "Male"
+msgstr "Nam"
+
+#. module: crm_management
+#: model:ir.ui.menu,name:crm_management.menu_management_root
+msgid "Management"
+msgstr "Sự quản lí"
+
+#. module: crm_management
+#: model:ir.model,name:crm_management.model_management_appointment
+msgid "Management Appointment"
+msgstr "Cuộc hẹn quản lí"
+
+#. module: crm_management
+#: model:ir.model,name:crm_management.model_management_manager
+msgid "Management Manager"
+msgstr ""
+
+#. module: crm_management
+#: model:ir.model,name:crm_management.model_management_patient
+msgid "Management Patient"
+msgstr "Quản lí khách hàng"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__manager_id
+msgid "Manager"
+msgstr "Người quản lí"
+
+#. module: crm_management
+#: model_terms:ir.ui.view,arch_db:crm_management.view_appointment_form
+msgid "Manager Oder"
+msgstr "Người quản lí đặt hàng"
+
+#. module: crm_management
+#: model:ir.actions.act_window,name:crm_management.action_management_manager
+#: model:ir.ui.menu,name:crm_management.menu_manager
+#: model:ir.ui.menu,name:crm_management.menu_manager_root
+msgid "Managers"
+msgstr "Người quản lí"
+
+#. module: crm_management
+#: model_terms:ir.ui.view,arch_db:crm_management.view_appointment_form
+#: model_terms:ir.ui.view,arch_db:crm_management.view_appointment_tree
+#: model_terms:ir.ui.view,arch_db:crm_management.view_patient_form
+msgid "Mark As Done"
+msgstr "Đánh dấu là xong"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__message_has_error
+#: model:ir.model.fields,field_description:crm_management.field_management_manager__message_has_error
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__message_has_error
+msgid "Message Delivery error"
+msgstr "Lỗi gửi tin nhắn"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__message_ids
+#: model:ir.model.fields,field_description:crm_management.field_management_manager__message_ids
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__message_ids
+msgid "Messages"
+msgstr "Tin nhắn"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__my_activity_date_deadline
+#: model:ir.model.fields,field_description:crm_management.field_management_manager__my_activity_date_deadline
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "Hạn chót hoạt động của tôi"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_manager__manager_name
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__name
+msgid "Name"
+msgstr "Tên"
+
+#. module: crm_management
+#. odoo-python
+#: code:addons/crm_management/models/patient.py:0
+#: code:addons/models/patient.py:0
+#, python-format
+msgid "Name %s Already Exists"
+msgstr ""
+
+#. module: crm_management
+#. odoo-python
+#: code:addons/crm_management/models/appointment.py:0
+#: code:addons/crm_management/models/appointment.py:0
+#: code:addons/crm_management/models/appointment.py:0
+#: code:addons/crm_management/models/patient.py:0
+#: code:addons/crm_management/models/patient.py:0
+#: code:addons/crm_management/models/patient.py:0
+#: code:addons/models/appointment.py:0 code:addons/models/appointment.py:0
+#: code:addons/models/appointment.py:0 code:addons/models/patient.py:0
+#: code:addons/models/patient.py:0 code:addons/models/patient.py:0
+#, python-format
+msgid "New"
+msgstr "Mã mới"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__activity_calendar_event_id
+#: model:ir.model.fields,field_description:crm_management.field_management_manager__activity_calendar_event_id
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "Lịch hoạt động sự kiện tiếp theo"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__activity_date_deadline
+#: model:ir.model.fields,field_description:crm_management.field_management_manager__activity_date_deadline
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Hạn chót hoạt động đó"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__activity_summary
+#: model:ir.model.fields,field_description:crm_management.field_management_manager__activity_summary
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__activity_summary
+msgid "Next Activity Summary"
+msgstr "Tóm tắt hoạt động tiếp theo"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__activity_type_id
+#: model:ir.model.fields,field_description:crm_management.field_management_manager__activity_type_id
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__activity_type_id
+msgid "Next Activity Type"
+msgstr "Loại hoạt động tiếp theo"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__message_needaction_counter
+#: model:ir.model.fields,field_description:crm_management.field_management_manager__message_needaction_counter
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Số lượng hành động"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__message_has_error_counter
+#: model:ir.model.fields,field_description:crm_management.field_management_manager__message_has_error_counter
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__message_has_error_counter
+msgid "Number of errors"
+msgstr "Số lỗi"
+
+#. module: crm_management
+#: model:ir.model.fields,help:crm_management.field_management_appointment__message_needaction_counter
+#: model:ir.model.fields,help:crm_management.field_management_manager__message_needaction_counter
+#: model:ir.model.fields,help:crm_management.field_management_patient__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Số lượng tin nhắn yêu cầu hành động"
+
+#. module: crm_management
+#: model:ir.model.fields,help:crm_management.field_management_appointment__message_has_error_counter
+#: model:ir.model.fields,help:crm_management.field_management_manager__message_has_error_counter
+#: model:ir.model.fields,help:crm_management.field_management_patient__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Số lượng tin nhắn có lỗi gửi"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__oder
+msgid "Oder"
+msgstr "Đặt hàng"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__oder_line_ids
+msgid "Oder Lines"
+msgstr "Dòng đặt hàng"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__name
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__reference
+msgid "Order Reference"
+msgstr "Đơn hàng tham khảo"
+
+#. module: crm_management
+#: model:ir.model.fields.selection,name:crm_management.selection__management_appointment__gender__other
+#: model:ir.model.fields.selection,name:crm_management.selection__management_manager__gender__other
+#: model:ir.model.fields.selection,name:crm_management.selection__management_patient__gender__other
+msgid "Other"
+msgstr "Khác"
+
+#. module: crm_management
+#: model_terms:ir.ui.view,arch_db:crm_management.view_appointment_form
+msgid "Other Info"
+msgstr "Thông tin khác"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__patient_id
+msgid "Patient"
+msgstr "Khách hàng"
+
+#. module: crm_management
+#: model:ir.actions.report,name:crm_management.report_patient_details
+msgid "Patient Details"
+msgstr "Chi tiết khách hàng"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_manager__image
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__image
+msgid "Patient Image"
+msgstr "Ảnh khách hàng"
+
+#. module: crm_management
+#: model:ir.actions.act_window,name:crm_management.action_management_patient
+#: model:ir.ui.menu,name:crm_management.menu_patient
+#: model:ir.ui.menu,name:crm_management.menu_patient_root
+msgid "Patients"
+msgstr "Khách hàng"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_appointment_prescription_lines__name
+#: model_terms:ir.ui.view,arch_db:crm_management.view_appointment_form
+msgid "Product"
+msgstr "Sản phẩm"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_appointment_prescription_lines__qty
+msgid "Quantity"
+msgstr "Số lượng"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__responsible_id
+msgid "Responsible"
+msgstr "Chịu trách nhiệm"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__activity_user_id
+#: model:ir.model.fields,field_description:crm_management.field_management_manager__activity_user_id
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__activity_user_id
+msgid "Responsible User"
+msgstr "Người dùng có trách nhiệm"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__message_has_sms_error
+#: model:ir.model.fields,field_description:crm_management.field_management_manager__message_has_sms_error
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Lỗi gửi SMS"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_sale_order__sale_description
+msgid "Sale Description"
+msgstr "Mô tả bán hàng"
+
+#. module: crm_management
+#: model:ir.model,name:crm_management.model_sale_order
+msgid "Sales Order"
+msgstr "Đơn bán hàng"
+
+#. module: crm_management
+#: model_terms:ir.ui.view,arch_db:crm_management.view_appointment_form
+#: model_terms:ir.ui.view,arch_db:crm_management.view_patient_form
+msgid "Set To Draft"
+msgstr "Chuyển về bản nháp"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__state
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__state
+msgid "Status"
+msgstr "Trạng thái"
+
+#. module: crm_management
+#: model:ir.model.fields,help:crm_management.field_management_appointment__activity_state
+#: model:ir.model.fields,help:crm_management.field_management_manager__activity_state
+#: model:ir.model.fields,help:crm_management.field_management_patient__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: crm_management
+#: model:ir.model.fields,help:crm_management.field_management_appointment__activity_exception_decoration
+#: model:ir.model.fields,help:crm_management.field_management_manager__activity_exception_decoration
+#: model:ir.model.fields,help:crm_management.field_management_patient__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Loại hoạt động ngoại lệ được ghi lại"
+
+#. module: crm_management
+#: model:ir.model.fields,field_description:crm_management.field_management_appointment__website_message_ids
+#: model:ir.model.fields,field_description:crm_management.field_management_manager__website_message_ids
+#: model:ir.model.fields,field_description:crm_management.field_management_patient__website_message_ids
+msgid "Website Messages"
+msgstr "Tin nhắn trang web"
+
+#. module: crm_management
+#: model:ir.model.fields,help:crm_management.field_management_appointment__website_message_ids
+#: model:ir.model.fields,help:crm_management.field_management_manager__website_message_ids
+#: model:ir.model.fields,help:crm_management.field_management_patient__website_message_ids
+msgid "Website communication history"
+msgstr "Lịch sử giao tiếp trang web"
+
+#. module: crm_management
+#. odoo-python
+#: code:addons/crm_management/models/appointment.py:0
+#: code:addons/crm_management/models/patient.py:0
+#: code:addons/models/appointment.py:0 code:addons/models/patient.py:0
+#, python-format
+msgid "You can only delete management in draft state."
+msgstr "Bạn chỉ có thể xóa bản ghi ở trạng thái bản nháp"
+
+#. module: crm_management
+#. odoo-python
+#: code:addons/crm_management/models/appointment.py:0
+#: code:addons/crm_management/models/patient.py:0
+#: code:addons/models/appointment.py:0 code:addons/models/patient.py:0
+#, python-format
+msgid "new"
+msgstr "Mã mới"

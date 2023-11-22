@@ -1,0 +1,20 @@
+<odoo>
+    <data>
+        <record id="seq_management_patient" model="ir.sequence">
+            <field name="name">Patient Sequence</field>
+            <field name="code">management.patient</field>
+            <field name="prefix">SC</field>
+            <field name="padding">5</field>
+            <field name="company_id" eval="False"></field>
+        </record>
+    </data>
+    <data>
+        <record id="seq_management_appointment" model="ir.sequence">
+            <field name="name">Appointment Sequence</field>
+            <field name="code">management.appointment</field>
+            <field name="prefix">NO</field>
+            <field name="padding">5</field>
+            <field name="company_id" eval="False"></field>
+        </record>
+    </data>
+</odoo>
